@@ -1,0 +1,147 @@
+.header{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color:#05386B;
+    padding: 18px 4%;
+align-items: center;
+text-decoration: none;
+}
+.logo  a{
+font-size: 25px;
+color: #fff;
+text-decoration: none;
+}
+
+.navbar  a{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 7px;
+    text-decoration: none;
+}
+.navbar:hover a{
+    background-color:#292930 ;
+    color: #05386B  ;
+    border:1px #292929 solid ;
+}
+
+.icon i{
+    color: #fff;
+    background-color: #292929;
+    padding: 10px;
+    border-radius: 7px;
+}
+.icon .fa-bars{
+    display: none;
+}
+.icon i:hover{
+border-radius: 10px 4px;  
+color: #05386B;
+background-color: #292929;  
+}
+
+.home{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.content{
+    width: 45%;
+}
+
+.image{
+    width: 45%;
+}
+
+.image img{
+    width: 100%;
+}
+
+.footer{
+    background-color:#05386B;
+display: flex;
+justify-content: space-around;
+flex-direction: row;
+
+}
+.mid{
+    width: 40%;
+    text-align: center;
+}
+.left  a{
+    display: block;
+    padding: 10px 15px;
+    background-color:#05386B;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 19px;
+    border: 1px solid #05386B;
+    text-decoration: none;
+}
+.left h1{
+    color: #fff;
+}
+.left :hover{
+    background-color:#292930 ;
+    color: #05386B  ;
+}
+.mid h1{
+    color: #fff;
+
+}
+.mid{
+    color: #fff;
+}
+.right{
+    color: #fff;
+}
+@media
+
+
+   ( max-width: 585px)
+   {
+    .navbar{
+        position: absolute;
+        top: -99%;
+
+    }
+    
+    
+    .icon .fa-bars{
+        display: inline-block;
+    }
+    .image{
+        width: 100%;
+    }
+   
+.home   {
+  width: 100%;
+  flex-direction: column;
+    
+}
+
+.content{
+   width: 100%; 
+  text-align: center;
+}
+.footer{
+    flex-direction: column;
+    
+
+}
+
+
+.mid{
+   width: 100%;
+    text-align: center;
+}
+}
